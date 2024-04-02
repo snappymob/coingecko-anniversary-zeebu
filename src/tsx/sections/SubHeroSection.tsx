@@ -3,8 +3,8 @@ const SubHeroSection = () => {
     <section>
       <div className="w-full">
         <img
-          className="w-full h-full"
-          src="http://landing.coingecko.com/wp-content/uploads/2024/03/polkadot-subpage-subbanner.png"
+          className="w-full h-full object-contain xl:object-cover"
+          src="http://landing.coingecko.com/wp-content/uploads/2024/04/zeebu-sub-banner.png"
           alt=""
         />
       </div>

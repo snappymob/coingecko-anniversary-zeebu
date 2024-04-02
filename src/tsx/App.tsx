@@ -17,24 +17,32 @@ const App = () => {
       <HeaderSection />
       <main>
         <HeroSection />
-        {/* <CompaniesSection /> */}
-        {/* <CandyCampaignSection /> */}
-        {/* <SweepstakesSection /> */}
+        <CandyCampaignSection />
         <KnowledgeHubSection />
-        {/* <DataCampaignSection /> */}
         <SponsoredVideoSection
-          title="What is Polkadot?"
-          description="Polkadot unites, secures and facilitates a network of heterogeneous blockchains called Parachains."
-          videoUrl="https://www.youtube.com/embed/29Ty-VTDnh4?si=yPipAeIz3Wxxdiap"
-          callToActionUrl="https://wiki.polkadot.network/docs/learn-index"
-        />
+          pt={{ className: 'pb-14', id: 'resources' }}
+          title="What is Zeebu?"
+          videoUrl="https://www.youtube.com/embed/9wTyVKzXVm0?si=2gNwE7L6F6p5loSO"
+          callToActionUrl="https://www.zeebu.com/"
+        >
+          Zeebu is a Web3 NeoBank for telecoms, creating a unified payment ecosystem focused on streamlining the
+          settlement experience of telecom carriers.
+        </SponsoredVideoSection>
         <SponsoredVideoSection
-          title="Explore Polkadot with Nova Wallet"
-          description="Learn how to stake, participate in Polkadot OpenGov and more using Nova Wallet."
-          videoUrl="https://www.youtube.com/embed/mOZe_OprONQ?si=pobiAaigDSayXsz9"
+          title="Introduction to Zeebu"
+          videoUrl="https://www.youtube.com/embed/pPJdZCFHORk?si=0MpECXZIS0Ti-IZF"
+          callToActionUrl="https://landing.coingecko.com/earn/what-is-zeebu/"
           videoSide="right"
-          callToActionUrl="https://wiki.polkadot.network/docs/learn-index"
-        />
+          pt={{ className: 'pt-14' }}
+        >
+          This is the first lesson of four lessons in the CoinGecko Learn & Earn series. This video explains the
+          fundamentals of the Zeebu ecosystem, showcasing the unique application of blockchain payments within the
+          telecommunications market. It covers the PSP, Token, and smart contracts that allow near instant settlement
+          and loyalty for stakeholders.
+          <span className="block font-semibold mt-6">
+            Note: The Learn & Earn campaign for Zeebu is over but you can still learn more about Zeebu on CoinGecko!
+          </span>
+        </SponsoredVideoSection>
         <DiscoverDAppsSection />
         <SubHeroSection />
       </main>

@@ -6,24 +6,24 @@ const HeroSection = () => {
       <div className="w-full">
         <img
           className="w-full h-full object-contain xl:object-cover"
-          src="http://landing.coingecko.com/wp-content/uploads/2024/03/polkadot-subpage-banner.png"
+          src="http://landing.coingecko.com/wp-content/uploads/2024/04/zeebu-main-banner.png"
           alt=""
         />
       </div>
       <div className="bg-white gap-12 w-full justify-center flex flex-col items-center">
         <div className="flex flex-col gap-6 w-full text-center">
-          <h1 className="text-5xl font-bold">Explore Polkadot</h1>
-          <div className="text-lg font-normal text-center mx-auto leading-[21.6px] text-[#64748B] p-4 lg:max-w-[800px] lg:w-[50%]">
-            Polkadot is an open-source project founded by the Web3 Foundation.
-            <br />
-            Web3 Foundation has commissioned five teams and over 100 developers to build Polkadot
+          <h1 className="text-3xl lg:text-5xl font-bold">Explore Zeebu</h1>
+          <div className="text-md lg:text-lg font-normal text-center mx-auto leading-[21.6px] text-[#64748B] p-4 lg:max-w-[800px] lg:w-[50%]">
+            ZEEBU’s all-in-one blockchain-based platform is built to meet every telecom settlement need, enabling
+            trustless, frictionless, and superfast global transactions.
           </div>
         </div>
         <PrimaryButton
-          label="Explore Now"
-          buttonPt={{ className: 'py-4 px-6 inline-flex', onClick: () => (location.hash = '#knowledge-hub') }}
-          innerPt={{ className: 'text-2xl' }}
-        />
+          buttonPt={{ className: 'py-3 lg:py-4 px-5 lg:px-6 inline-flex', onClick: () => (location.hash = '#raffle') }}
+          innerPt={{ className: 'text-lg lg:text-2xl' }}
+        >
+          Explore Now
+        </PrimaryButton>
       </div>
     </section>
   );

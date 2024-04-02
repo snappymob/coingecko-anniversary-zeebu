@@ -12,10 +12,11 @@ const DataCampaignSection = () => {
             understanding of cryptocurrencies and trading.
           </div>
           <PrimaryButton
-            label="View More"
             buttonPt={{ className: 'mt-12 py-4 px-6 hidden lg:inline-block' }}
             innerPt={{ className: 'text-2xl' }}
-          />
+          >
+            View More
+          </PrimaryButton>
         </div>
         <DataCampaignGraph
           symbol="LTC-USD"
@@ -36,10 +37,11 @@ const DataCampaignSection = () => {
           fillColor="rgba(75, 204, 0, 0.2)"
         />
         <PrimaryButton
-          label="View More"
           buttonPt={{ className: 'md:col-span-2 mt-12 py-4 px-6 w-max mx-auto lg:hidden' }}
           innerPt={{ className: 'text-2xl' }}
-        />
+        >
+          View More
+        </PrimaryButton>
       </div>
     </section>
   );

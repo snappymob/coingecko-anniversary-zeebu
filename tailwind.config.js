@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        primaryShadow: '0 4px 0 0 #cf0374',
-        primaryHover: '0 4px 0 0 #b9036f',
-        primaryActive: '0 0 0 0 #b9036f',
+        primaryShadow: '0 4px 0 0 #0078d7',
+        primaryHover: '0 4px 0 0 #0067c5',
+        primaryActive: '0 0 0 0 #0067c5',
         secondaryActive: '0 2px 0 0 #cbd5e1',
         secondaryActiveDark: '0 2px 0 0 #384a61',
         secondaryShadow: '0 4px 0 0 #cbd5e1',
@@ -19,20 +19,33 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        unbounded: ['Unbounded', ...defaultTheme.fontFamily.sans],
+        manrope: ['Manrope', ...defaultTheme.fontFamily.sans],
       },
+
       colors: {
+        secondary: {
+          50: '#fef2e1',
+          100: '#fcdeb5',
+          200: '#fac886',
+          300: '#f8b258',
+          400: '#f6a13a',
+          500: '#f49228',
+          600: '#ef8726',
+          700: '#e87824',
+          800: '#e16a21',
+          900: '#d7511c',
+        },
         primary: {
-          50: '#fce5f0',
-          100: '#f9bddb',
-          200: '#f791c3',
-          300: '#f763aa',
-          400: '#f73d95',
-          500: '#f8007f',
-          600: '#e6007b',
-          700: '#cf0374',
-          800: '#b9036f',
-          900: '#920266',
+          50: '#e2f2fd',
+          100: '#b7dffc',
+          200: '#88cbfb',
+          300: '#52b6f9',
+          400: '#12a6f9',
+          500: '#0098f8',
+          600: '#008aea',
+          700: '#0078d7',
+          800: '#0067c5',
+          900: '#0049a7',
         },
         moon: {
           50: 'rgb(223, 229, 236)',

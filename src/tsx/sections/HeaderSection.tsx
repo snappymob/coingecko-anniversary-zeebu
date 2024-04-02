@@ -14,7 +14,7 @@ const HeaderSection = () => {
               src="https://support.coingecko.com/hc/article_attachments/4499575478169/CoinGecko_logo.png"
               alt=""
             />
-            <h1 className="text-2xl font-medium">Explore Polkadot</h1>
+            <h1 className="text-2xl font-medium">Explore Zeebu</h1>
           </div>
           <div
             id="nav-links"
@@ -23,9 +23,21 @@ const HeaderSection = () => {
               { ['visible']: isNavVisible }
             )}
           >
-            <a href="#hero">Home</a>
-            <a href="#knowledge-hub">Knowledge Hub</a>
-            <a href="#dapps">DApps</a>
+            <a onClick={() => setIsNavVisible(false)} href="#hero">
+              Home
+            </a>
+            <a onClick={() => setIsNavVisible(false)} href="#raffle">
+              Raffle
+            </a>
+            <a onClick={() => setIsNavVisible(false)} href="#knowledge-hub">
+              Knowledge Hub
+            </a>
+            <a onClick={() => setIsNavVisible(false)} href="#resources">
+              Resources
+            </a>
+            <a onClick={() => setIsNavVisible(false)} href="#clients">
+              Clients
+            </a>
             <button id="nav-links-hamburger-close" onClick={() => setIsNavVisible(false)} className="lg:hidden p-1.5">
               <div>
                 <svg

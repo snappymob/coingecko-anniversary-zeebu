@@ -37,11 +37,9 @@ const SweepstakesSection = () => {
             <div className="text-lg font-normal leading-[21.6px] text-[#64748B] mb-12 max-w-xl">
               Discover a world of Crypto prizes and elevate your experience to new heights!
             </div>
-            <PrimaryButton
-              label="View More"
-              buttonPt={{ className: 'py-4 px-6 inline-flex' }}
-              innerPt={{ className: 'text-2xl' }}
-            />
+            <PrimaryButton buttonPt={{ className: 'py-4 px-6 inline-flex' }} innerPt={{ className: 'text-2xl' }}>
+              View More
+            </PrimaryButton>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">

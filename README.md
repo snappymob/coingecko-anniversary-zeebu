@@ -1,6 +1,6 @@
-# CoinGecko Anniversary Polkadot Subpage
+# CoinGecko Anniversary Zeebu Subpage
 
-Landing page for CoinGecko anniversary and halving campaign - Polkadot client.
+Landing page for CoinGecko anniversary and halving campaign - Zeebu client.
 
 ## Usage
 
