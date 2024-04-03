@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { getActiveBreakpoint } from '../utils/style-helpers';
 import { cn } from '../utils/cn';
+import { getActiveBreakpoint } from '../utils/style-helpers';
 
 type ArticleItem = {
   thumbnailUrl: string;
@@ -109,6 +109,16 @@ const KnowledgeHubSection = () => {
 
     setPage((p) => p + direction);
   };
+
+  useEffect(() => {
+    const rotateTimeout = setTimeout(() => {
+      navigateCarousel(1);
+    }, 5000);
+
+    return () => {
+      clearTimeout(rotateTimeout);
+    };
+  }, [page]);
 
   return (
     <section className="bg-white py-12" id="knowledge-hub">

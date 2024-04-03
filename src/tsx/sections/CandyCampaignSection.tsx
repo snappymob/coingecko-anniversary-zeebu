@@ -21,9 +21,11 @@ const CandyCampaignSection = () => {
               <br />
               Join the raffle to win yours.
             </div>
-            <PrimaryButton buttonPt={{ className: 'py-3 px-5 inline-flex' }} innerPt={{ className: 'text-lg' }}>
-              Join the Raffle
-            </PrimaryButton>
+            <a href="https://www.coingecko.com/account/rewards/zeebu-nft-raffle" target="_blank">
+              <PrimaryButton buttonPt={{ className: 'py-3 px-5 inline-flex' }} innerPt={{ className: 'text-lg' }}>
+                Join the Raffle
+              </PrimaryButton>
+            </a>
           </div>
           <div className="aspect-[16/9] rounded-xl overflow-clip">
             <img
