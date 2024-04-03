@@ -1,10 +1,4 @@
-import { ReactNode, useState } from 'react';
-import { DeFiIcon } from '../components/icons/DeFiIcon';
-import { DexIcon } from '../components/icons/DexIcon';
-import { GamingIcon } from '../components/icons/GamingIcon';
-import { LstIcon } from '../components/icons/LstIcon';
-import { WalletIcon } from '../components/icons/WalletIcon';
-import { cn } from '../utils/cn';
+import { useState } from 'react';
 
 type DiscoverDAppsItem = {
   thumbnailUrl: string;
@@ -39,7 +33,7 @@ const DiscoverDAppsSection = () => {
   ]);
 
   return (
-    <section className="py-24 bg-white" id="clients">
+    <section className="py-12 bg-white" id="clients">
       <div className="container mx-auto">
         <div className="text-center max-w-xl mx-auto">
           <h3 className="font-semibold text-[44px] leading-[48.4px] mb-6">Our Trusted Clients</h3>

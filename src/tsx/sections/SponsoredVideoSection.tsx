@@ -23,7 +23,7 @@ const SponsoredVideoSection = ({
   const { className, ...rest } = pt;
 
   return (
-    <section className={cn('py-28', className)} {...rest}>
+    <section className={cn('py-12', className)} {...rest}>
       <div
         className={cn('container mx-auto flex flex-wrap lg:flex-nowrap gap-6 md:gap-[60px]', {
           'lg:flex-row-reverse': videoSide == 'right',

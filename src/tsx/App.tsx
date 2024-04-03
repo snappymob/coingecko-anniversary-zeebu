@@ -1,7 +1,5 @@
 import { render } from 'react-dom';
 import CandyCampaignSection from './sections/CandyCampaignSection';
-import CompaniesSection from './sections/CompaniesSection';
-import DataCampaignSection from './sections/DataCampaignSection';
 import DiscoverDAppsSection from './sections/DiscoverDAppsSection';
 import FooterSection from './sections/FooterSection';
 import HeaderSection from './sections/HeaderSection';
@@ -9,7 +7,6 @@ import HeroSection from './sections/HeroSection';
 import KnowledgeHubSection from './sections/KnowledgeHubSection';
 import SponsoredVideoSection from './sections/SponsoredVideoSection';
 import SubHeroSection from './sections/SubHeroSection';
-import SweepstakesSection from './sections/SweepstakesSection';
 
 const App = () => {
   return (

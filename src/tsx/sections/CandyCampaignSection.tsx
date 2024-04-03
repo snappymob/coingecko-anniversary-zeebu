@@ -1,7 +1,5 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import PrimaryButton from '../components/PrimaryButton';
-import { cn } from '../utils/cn';
-import { getActiveBreakpoint } from '../utils/style-helpers';
 
 const CandyCampaignSection = () => {
   const [data, setData] = useState<string[]>([
@@ -12,7 +10,7 @@ const CandyCampaignSection = () => {
   ]);
 
   return (
-    <section className="bg-white pb-32 pt-16" id="raffle">
+    <section className="bg-slate-50 py-12" id="raffle">
       <div className="container mx-auto">
         <div className="min-h-[300px] my-6 grid grid-cols-1 gap-6 lg:grid-cols-2 justify-between">
           <div className="h-full justify-center items-center flex flex-col">
@@ -35,6 +33,7 @@ const CandyCampaignSection = () => {
             />
           </div>
         </div>
+        <h3 className="text-4xl mt-12 mb-8">Prize Showcase</h3>
         <div className="mb-8 grid grid-cols-2 lg:grid-cols-4 w-full gap-6">
           {data.map((d) => (
             <div className="rounded-xl overflow-clip">
