@@ -33,7 +33,7 @@ const DiscoverDAppsSection = () => {
   ]);
 
   return (
-    <section className="py-12 bg-white" id="clients">
+    <section className="py-12 bg-slate-50" id="clients">
       <div className="container mx-auto">
         <div className="text-center max-w-xl mx-auto">
           <h3 className="font-semibold text-[44px] leading-[48.4px] mb-6">Our Trusted Clients</h3>
@@ -47,7 +47,7 @@ const DiscoverDAppsSection = () => {
             <a
               href={d.callToActionUrl}
               target="_blank"
-              className="border border-solid border-slate-300 rounded-3xl text-center py-4 px-8 flex flex-col items-center shadow-secondaryShadow border-t-2 border-x-2"
+              className="bg-white border border-solid border-slate-300 rounded-3xl text-center py-4 px-8 flex flex-col items-center shadow-secondaryShadow border-t-2 border-x-2"
             >
               <h4 className="text-[28px] font-medium text-xl">{d.name}</h4>
               <img className="h-full object-contain" src={d.thumbnailUrl} />

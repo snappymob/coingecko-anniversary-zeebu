@@ -29,7 +29,7 @@ const SweepstakesSection = () => {
   ]);
 
   return (
-    <section className="pt-16 pb-24" id="sweepstakes">
+    <section className="py-12" id="sweepstakes">
       <div className="container mx-auto bg-[#fafbfc]">
         <div className="mb-[60px] flex items-center justify-center">
           <div className="text-center flex flex-col justify-center items-center">

@@ -121,7 +121,7 @@ const KnowledgeHubSection = () => {
   }, [page]);
 
   return (
-    <section className="bg-white py-12" id="knowledge-hub">
+    <section className="bg-slate-50 py-12" id="knowledge-hub">
       <div className="container mx-auto">
         <div className="flex items-center justify-center mb-12">
           <div className="text-center flex flex-col justify-center items-center gap-6">
@@ -140,7 +140,7 @@ const KnowledgeHubSection = () => {
               keep you ahead in the crypto game.
             </div>
           </div>
-          <div className="flex gap-8 items-end justify-end">
+          <div className="pt-8 flex gap-8 items-end justify-end">
             <button
               onClick={() => navigateCarousel(-1)}
               className="rounded-full flex justify-center items-center h-[40px] w-[40px] bg-[#8390a2] text-white"

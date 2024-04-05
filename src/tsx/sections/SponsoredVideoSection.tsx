@@ -41,7 +41,7 @@ const SponsoredVideoSection = ({
         ></iframe>
         <div className="lg:basis-[40%] lg:flex-none">
           <h3 className="font-semibold text-[44px] leading-[48.4px] mb-8">{title}</h3>
-          <div className="text-lg leading-[21.6px] text-[#64748B] mb-[60px]">{children}</div>
+          <div className="text-lg leading-[21.6px] text-[#64748B] mb-8 lg:mb-14">{children}</div>
           <a href={callToActionUrl} target="_blank">
             <PrimaryButton buttonPt={{ className: 'py-3 px-5 inline-flex' }} innerPt={{ className: 'text-lg' }}>
               {callToAction}

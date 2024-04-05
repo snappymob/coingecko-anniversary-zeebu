@@ -10,7 +10,7 @@ const CandyCampaignSection = () => {
   ]);
 
   return (
-    <section className="bg-slate-50 py-12" id="raffle">
+    <section className="bg-white py-12" id="raffle">
       <div className="container mx-auto">
         <div className="min-h-[300px] my-6 grid grid-cols-1 gap-6 lg:grid-cols-2 justify-between">
           <div className="h-full justify-center items-center flex flex-col">

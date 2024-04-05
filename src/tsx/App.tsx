@@ -17,7 +17,7 @@ const App = () => {
         <CandyCampaignSection />
         <KnowledgeHubSection />
         <SponsoredVideoSection
-          pt={{ className: 'pb-14', id: 'resources' }}
+          pt={{ className: 'pb-12 bg-white', id: 'resources' }}
           title="What is Zeebu?"
           videoUrl="https://www.youtube.com/embed/9wTyVKzXVm0?si=2gNwE7L6F6p5loSO"
           callToActionUrl="https://www.zeebu.com/"
@@ -30,7 +30,7 @@ const App = () => {
           videoUrl="https://www.youtube.com/embed/pPJdZCFHORk?si=0MpECXZIS0Ti-IZF"
           callToActionUrl="https://landing.coingecko.com/earn/what-is-zeebu/"
           videoSide="right"
-          pt={{ className: 'pt-14' }}
+          pt={{ className: 'pt-12 bg-white' }}
         >
           This is the first lesson of four lessons in the CoinGecko Learn & Earn series. This video explains the
           fundamentals of the Zeebu ecosystem, showcasing the unique application of blockchain payments within the
