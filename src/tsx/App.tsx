@@ -20,7 +20,7 @@ const App = () => {
           pt={{ className: 'pb-12 bg-white', id: 'resources' }}
           title="What is Zeebu?"
           videoUrl="https://www.youtube.com/embed/9wTyVKzXVm0?si=2gNwE7L6F6p5loSO"
-          callToActionUrl="https://www.zeebu.com/"
+          callToActionUrl="https://www.zeebu.com/?utm_source=Coingecko&utm_medium=Referral&utm_campaign=Bitcoin_Halving&utm_content=Coingecko_Traffic"
         >
           Zeebu is a Web3 NeoBank for telecoms, creating a unified payment ecosystem focused on streamlining the
           settlement experience of telecom carriers.
