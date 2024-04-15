@@ -48,7 +48,7 @@ const FooterSection = () => {
         <nav>
           <ul>
             <li className="pb-5">
-              <a href="https://twitter.com/zeebuofficial" className="text-[#64748B] font-light">
+              <a href="https://bit.ly/zeebutwitter" className="text-[#64748B] font-light">
                 Twitter/X
               </a>
             </li>
@@ -63,7 +63,7 @@ const FooterSection = () => {
               </a>
             </li>
             <li>
-              <a href="https://t.me/+QdDCbYC_HsRhMjg0" className="text-[#64748B] font-light">
+              <a href="https://t.me/+_19jAyVyA4hiZGY0" className="text-[#64748B] font-light">
                 Telegram
               </a>
             </li>
